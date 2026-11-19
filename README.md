@@ -1,6 +1,6 @@
 # Keycloak MCP Server (TypeScript)
 
-A Model Context Protocol (MCP) server built with TypeScript that enables AI assistants (such as Claude Desktop, Cursor, and Goose) to interact with and manage a **Keycloak** instance using natural language.
+A Model Context Protocol (MCP) server that enables AI assistants to interact with and manage a **Keycloak** instance using natural language.
 
 Built on the official `@modelcontextprotocol/server` SDK and `@keycloak/keycloak-admin-client`.
 

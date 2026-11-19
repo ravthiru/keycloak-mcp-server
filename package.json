@@ -1,0 +1,29 @@
+{
+  "name": "keycloak-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server built with TypeScript that enables AI assistants (such as Claude Desktop, Cursor, and Goose) to interact with and manage a **Keycloak** instance using natural language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravthiru/keycloak-mcp-server.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ravthiru/keycloak-mcp-server/issues"
+  },
+  "homepage": "https://github.com/ravthiru/keycloak-mcp-server#readme",
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "^26.8.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
